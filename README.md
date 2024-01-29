@@ -1,6 +1,7 @@
-# Name of project
+# PORTFOLIO
 
-> A longer description
+> A compilation of my academic and professional materials including education,
+> skills, qualifications,training and experiences.
 
 ## Table of contents
 
@@ -13,69 +14,53 @@
   - [Code Examples](#code-examples)
   - [Features](#features)
   - [Status](#status)
-  - [Inspiration](#inspiration)
   - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
   - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
 
 ## General info
 
-> A short description
+> This is a great project to hone my skills in HTML and CSS.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](.//.)
 
 ## Technologies
 
-- Node 14.16.0
-- VSC code
-- JavaScript
-- ...
-- ...
+- Node v20.11.0
+- VSC code, HTML/CSS
+- Git
+- Github
 
 ## Setup
 
-- `npm run start`
+- Use the same template
+- Clone the template
+- Run Npm install
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<header>
+  <h1>Richelle Pintucan</h1>
+  <p id="position">Front-end Developer</p>
+</header>
+<section>
+  <h2>Summary</h2>
+  <p class="summary">I'm Richelle Pintucan.</p>
+</section>
 ```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
 
 ## Status
 
 Project is: _in progress_
 
-## Inspiration
-
-Project by freeCodeCamp.org
-
 ## Contact
 
-By [Name]
+By [Richelle Pintucan](https://github.com/richellepintucan)
 
 ## Instructions for use
-
-<details>
-  <summary>Getting Started</summary>
 
 <!-- a guide to using this repository -->
 
@@ -97,32 +82,3 @@ By [Name]
   doesn't mean it is! It doesn't know every word in the world. You can add new
   correct words to the [./.cspell.json](./.cspell.json) file so they won't cause
   an error.
-- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility analysis
-  on all HTML files in the given path and writes the report to
-  `/accessibility_report`
-
-## Continuous Integration (CI)
-
-When you open a PR to `main`/`master` in your repository, GitHub will
-automatically do a linting check on the code in this repository, you can see
-this in the[./.github/workflows/lint.yml](./.github/workflows/lint.yml) file.
-
-If the linting fails, you will not be able to merge the PR. You can double check
-that your code will pass before pushing by running the code quality scripts
-locally.
-
-## Repo Setup
-
-- Give each member **_write_** access to the repo (if it's a group project)
-- Turn on GitHub Pages and put a link to your website in the repo's description
-- Go to _General_ Section > check **Discussions**
-- In the _Branches_ section of your repo's settings make sure the
-  `master`/`main` branch must:
-  - "_Require a pull request before merging_"
-  - "_Require approvals_"
-  - "_Dismiss stale pull request approvals when new commits are pushed_"
-  - "_Require status checks to pass before merging_"
-  - "_Require branches to be up to date before merging_"
-  - "_Do not allow bypassing the above settings_"
-
-</details>
