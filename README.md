@@ -5,14 +5,13 @@
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Name of project](#portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
-  - [Features](#features)
   - [Status](#status)
   - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
