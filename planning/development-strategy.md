@@ -1,55 +1,68 @@
-# Project Name
+# PORTFOLIO
 
-<!-- describe your project -->
+> A compilation of my academic and professional materials including
+> education,skills, qualifications,training and experiences.
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Use the same template
+- Clone the template
+- Run Npm install
 
 ---
 
-<!-- copy this section once for each must-have user story -->
-
 ## user story
 
-<!-- each issue created from this section will have the `for: user story` label -->
+> First page - Home page
 
-> "as a ... i can ... so that ..."
+- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
+      the different parts of the page.
 
-<!-- write any extra notes or description -->
+- [ ] As a user I want to see the `title` , `main content` and `image(s)` so
+      that I can understand easily what the website is all about.
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- [ ] As a user I want to see at the end of the page a `footer` with some info
+      for copyright notice, privacy policy
 
-### Logic: user story
+> Second page - About Me page
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+-- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
+the different parts of the page.
 
-### Interface: user story
+- [ ] As a user I want to see the `title` and `image (s)` so that I can
+      understand easily what the website is all about.
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- [ ] As a user I want to see the `about you` and or `image(s)` so I get to know
+      you better
 
-### Interaction: user story
+- [ ] As a user I want to see at the end of the page a `footer` with some info
+      for copyright notice, privacy policy
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+> Third page - Blog page
 
-### Documentation: user story
+- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
+      the different parts of the page.
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- [ ] As a user I want to see the `title` and `image(s)` so that I can
+      understand easily what the website is all about.
+
+- [ ] As a user I want to see the `links` so I can read some of your blogs.
+
+- [ ] As a user I want to see at the end of the page a `footer` with some info
+      for copyright notice, privacy policy
+
+> Fourth page - Project page
+
+- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
+      the different parts of the page.
+
+- [ ] As a user I want to see the `title` and `image(s)` so that I can
+      understand easily what the website is all about.
+
+- [ ] As a user I want to see the `links` and `screenshot(s)` so I can have an
+      idea of the projects you already did.
+
+- [ ] As a user I want to see at the end of the page a `footer` with some info
+      for copyright notice, privacy policy

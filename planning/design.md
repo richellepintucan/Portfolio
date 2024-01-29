@@ -12,6 +12,20 @@
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+> Portfolio-
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![Home page](../img/homePage.png)
+
+> Portfolio - Home Page
+
+![About Me Page](../img/aboutMe.png)
+
+> Portfolio - About Me page page
+
+![Blog Page](../img/blogPage.png)
+
+> Portfolio- Blog page
+
+![Project Page](../img/projectPage.png)
+
+> Portfolio- Project page
