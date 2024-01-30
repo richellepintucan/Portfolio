@@ -27,6 +27,290 @@
     "package-lock.json",
     "**/*.mp4",
     "**/*.svg",
-    "accessibility_report"
+    "accessibility_report",
+    cd Documents
+git cloneClone your repo from your GitHub account: Clone the repository by clicking on Code, then copy HTTPS link
+Open your terminal: Open your Terminal or Git powershell on Windows and type
+git clone <HTTPS link>
+
+Run npm install
+ls
+
+code . - to open the folder you're working on
+
+Create a new branch as richellepintucan
+ 
+*Create bio file as richellepintucan the same as my GitHub username under the folder Student bios folder
+*I add a resize image of me under img folder
+*I write my bio/add info via markdown
+
+
+npm run format
+npm run format:check
+npm run spell-check
+npm run lint:ls
+npm run lint:md
+
+npm run validate:html
+npm run lint:css
+ 
+I add the changes to the staging area
+I commit the changes
+I pushe my branch code to github
+Made pull request
+I assigned a coach to review my PR
+I linked my PR to this issue
+ 
+ 
+to modify that is already merged
+ 
+ 
+ git checkout main
+ git pull
+ 
+ git branch "name of the branch"
+ git checkout "name of the branch"
+ 
+
+ 
+ laptop>push-github
+ github<pull-laptop
+ 
+ ***
+ git stash-temporary saving
+ git pop or git stash apply- to bring back the changes
+ 
+Color palette  https://colorhunt.co/palette/579bb1e1d7c6ece8ddf8f4ea
+Color combination https://coolors.co/587866-eed06c-f6f4f2-ffffff-131b23
+Combination of a few fonts https://heyreliable.com/ultimate-google-font-pairings/
+
+
+Samir https://www.tutorialspoint.com/sql/sql-syntax.htm
+ 
+ https://en.bem.info/methodology/html/
+ 
+ Samir https://www.youtube.com/watch?v=x4q86IjJFag
+ 
+ https://cssgridgarden.com/
+ 
+ https://flexboxfroggy.com/
+ 
+https://www.youtube.com/watch?v=ephId3mYu9o
+ 
+https://www.youtube.com/watch?v=RRxQQxiM7AA
+ 
+https://www.youtube.com/watch?v=mJgBOIoGihA
+ 
+https://www.youtube.com/watch?v=n4R2E7O-Ngo
+ 
+https://www.youtube.com/watch?v=2-VKC8g2u1Y&t=144s
+ 
+https://github.com/HackYourFutureBelgium/bf-workflows/blob/main/materials/git-intro.md
+ 
+https://www.youtube.com/watch?v=ZtqBQ68cfJc
+ 
+https://www.tutorialspoint.com/git/index.htm
+
+
+
+
+🍁🍂📚☕️🌥 I love to read quotes/a quote enthusiast/a quote lover/a quote collector/quoter/a quote connoisseur/or a quote aficionado.
+
+
+Constraints
+
+time and money, teammate-how many members
+
+Excalidraw - site for wireframe
+
+
+
+"fontawesome",
+"accusoft",
+"adversal",
+"affiliatetheme",
+"amilia",
+angellist",
+angrycreative",
+"apper",
+"artstation",
+"asymmetrik",
+"autoprefixer",
+"avianex",
+"viato",
+"bandcamp",
+"behance",
+"behance",
+"bimobject",
+"bity",
+"buromobelexperte",,,
+"buysellads",
+"centercode",
+"chromecast",
+"cloudscale",
+"cloudversify",
+"codepen",
+"codiepie",
+"contao",
+"cpanel",
+"crosshairs",
+"dailymotion",
+"dashcube",
+"deezer",
+"deploydog",
+"deskpro",
+"deviantart",
+"dharmachakra",
+"digg",
+"dochub",
+"dribbble",
+"dribbble",
+"steelpan",
+"dyalog",
+"elementor",
+"ello",
+"envira",
+"evernote",
+"expeditedssl",
+"firstdraft",
+"flipboard",
+"fonticons",
+"fonticons",
+"futbol",
+"gamepad",
+"gitter",
+"goodreads",
+"goodreads",
+"gopuram",
+"gratipay",
+"grav",
+"gripfire",
+"guilded",
+"hhamsa",
+"hanukiah",
+"hooli",
+"hotjar",
+"houzz",
+"hubspot",
+"imdb",
+"innosoft",
+"instalod",
+"invision",
+"ioxhost",
+"joget",
+"joomla",
+"jsfiddle",
+"kaggle",
+"keybase",
+"keycdn",
+"khanda",
+"kickstarter",
+"kickstarter",
+"korvue",
+"laravel",
+"leanpub",
+"magento",
+"mailchimp",
+"mandalorian",
+"maxcdn",
+"medapps",
+"medkit",
+"medrt",
+"megaport",
+"microblog,
+"mixcloud",
+"mizuni",
+"modx",
+"monero",
+"neos",
+"nimblr",
+"nutritionix",
+"ungroup",
+"odnoklassniki",
+"odnoklassniki",
+"opencart",
+"optin",
+"rcid",
+"outdentpagelines",
+"palfed",
+"perbyte",
+"phabricator",
+"pinterest",
+"pinterest",
+"qrcode",
+"quidditch",
+"quinscape",
+"quora",
+"ravelry",
+"reacteurope",
+"replyd",
+"researchgate",
+"rocketchat",
+"rockrms",
+"scribd",
+"searchengin",
+"sellcast",
+"sellsy",
+"servicestack",
+"shirtsinbulk",
+"shopware",
+"simplybuilt",
+"sistrix",
+"sith",
+"skyatlas",
+"slideshare",
+"soundcloud"",
+"squarespace",
+"stackpath",
+"staylinked",
+"strava",
+"stroopwafel",
+"studiovinari",
+"stumbleupon",
+"swatchbook",
+"teamspeak",
+"tencent",
+"themeco",
+"themeisle",
+"tiktok",
+"tshirt",
+"uiki",
+"uniregistry",
+"ussunnah",
+"vaadin",
+"viacoin",
+"viadeo",
+"vihara",
+"vuejs",
+"weebly",
+"weibo",
+"whmcs",
+"wpbeginner",
+"wpexplorer",
+"wpforms",
+"wpressr",
+"yoast",
+"zhihu",
+"focusable",
+"focusable",
+"webfonts",
+"webfonts",
+"iefix",
+"webfonts",
+"webfonts",
+"webfonts",
+"fontawesome",
+"iefix",
+"fontawesome",
+"iefix",
+"fontawesome",
+"fontawesome",
+"Csvg",
+"Cpath",
+"formerize",
+"Csvg",
+"xlink",
+"Cstyle",
+"Eline"
   ]
 }
