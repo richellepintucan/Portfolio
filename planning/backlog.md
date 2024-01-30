@@ -9,12 +9,14 @@ create your own!
 
 > First page - Home page
 
-- [ ] As a user I want to see the `logo`, `title` and `description` so that I can understand easily what the website is all about.
+- [ ] As a user I want to see the `logo`, `title` and `description` so that I
+      can understand easily what the website is all about.
 
 - [ ] As a user I want to see the `Navigation links`, so I can go to the
-different parts of the page.
+      different parts of the page.
 
-- [ ] As a user I want to see at the end of the page a `footer` with some info for copyright notice, privacy policy
+- [ ] As a user I want to see at the end of the page a `footer` with some info
+      for copyright notice, privacy policy
 
 > Second page - Intro
 
