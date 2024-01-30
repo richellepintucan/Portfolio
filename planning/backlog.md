@@ -9,52 +9,29 @@ create your own!
 
 > First page - Home page
 
-- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
-      the different parts of the page.
+- [ ] As a user I want to see the `logo` and `title` `description` so that I can
+      understand easily what the website is all about.
 
-- [ ] As a user I want to see the `title` , `main content` and `image(s)` so
-      that I can understand easily what the website is all about.
+- [ ] As a user I want to see the `Navigation links`, so I can go to the
+      different parts of the page.
 
 - [ ] As a user I want to see at the end of the page a `footer` with some info
       for copyright notice, privacy policy
 
-> Second page - About Me page
+> Second page - Intro
 
--- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
-the different parts of the page.
+- [ ] As a user I want to see the `intro` just to have an idea about you
 
-- [ ] As a user I want to see the `title` and `image (s)` so that I can
-      understand easily what the website is all about.
+> Third page - About Me
 
 - [ ] As a user I want to see the `about you` and or `image(s)` so I get to know
       you better
 
-- [ ] As a user I want to see at the end of the page a `footer` with some info
-      for copyright notice, privacy policy
+> Fourth page - Blog and Project page
 
-> Third page - Blog page
+- [ ] As a user I want to see the `blogs` and or `projects` you have done
 
-- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
-      the different parts of the page.
+> Fifth page - Contact
 
-- [ ] As a user I want to see the `title` and `image(s)` so that I can
-      understand easily what the website is all about.
-
-- [ ] As a user I want to see the `links` so I can read some of your blogs.
-
-- [ ] As a user I want to see at the end of the page a `footer` with some info
-      for copyright notice, privacy policy
-
-> Fourth page - Project page
-
-- [ ] As a user I want to see the `logo` and `navigation links` so I can go to
-      the different parts of the page.
-
-- [ ] As a user I want to see the `title` and `image(s)` so that I can
-      understand easily what the website is all about.
-
-- [ ] As a user I want to see the `links` and `screenshot(s)` so I can have an
-      idea of the projects you already did.
-
-- [ ] As a user I want to see at the end of the page a `footer` with some info
-      for copyright notice, privacy policy
+- [ ] As a user I want to see the `contact form` and or `email add` so I can
+      easily contact you
