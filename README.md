@@ -23,7 +23,7 @@
 
 ## Screenshots
 
-![Example screenshot](../Portfolio/img/Screenshot.png)
+![Example screenshot](./img/Screenshot.png)
 
 ## Technologies
 
