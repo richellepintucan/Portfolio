@@ -1,6 +1,6 @@
 # User-personas
 
-## Cory, 38
+## Philippo, 38
 
 ![user photo](../img/Philippo.png)
 
