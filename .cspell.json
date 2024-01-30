@@ -19,16 +19,7 @@
     "Pintucan",
     "Philippo",
     "Naric",
-    "Vlaanderen"
-  ],
-  "ignorePaths": [
-    "node_modules/**",
-    "package.json",
-    "package-lock.json",
-    "**/*.mp4",
-    "**/*.svg",
-    "accessibility_report",
-
+    "Vlaanderen",
     "fontawesome",
     "accusoft",
     "adversal",
@@ -215,6 +206,38 @@
     "Csvg",
     "xlink",
     "Cstyle",
-    "Eline"
+    "Eline",
+    "aviato",
+    "cloudsmith",
+    "connectdevelop",
+    "earlybirds",
+    "flickr",
+    "forumbee",
+    "hackerrank",
+    "hamsa",
+    "whills",
+    "orcid",
+    "outdent",
+    "pagelines",
+    "pastafarianism",
+    "renren",
+    "schli",
+    "speakap",
+    "strikethrough",
+    "symfony",
+    "untappd",
+    "wodu",
+    "schlix",
+    "uikit",
+    "umbraco",
+    "weixin"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "package.json",
+    "package-lock.json",
+    "**/*.mp4",
+    "**/*.svg",
+    "accessibility_report"
   ]
 }

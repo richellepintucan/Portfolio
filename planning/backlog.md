@@ -12,7 +12,7 @@ create your own!
 - [ ] As a user I want to see the `logo`, `title` and `description` so that I
       can understand easily what the website is all about.
 
-- [ ] As a user I want to see the `Navigation links`, so I can go to the
+- [ ] As a user I want to see the `Navigation links` so I can go to the
       different parts of the page.
 
 - [ ] As a user I want to see at the end of the page a `footer` with some info
