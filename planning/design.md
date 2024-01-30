@@ -14,18 +14,22 @@
 
 > Portfolio-
 
-![Home page](../img/homePage.png)
+![Home page](../img/design.png)
 
 > Portfolio - Home Page
 
-![About Me Page](../img/aboutMe.png)
+![Intro](../img/intro.png)
 
-> Portfolio - About Me page page
+> Portfolio - Intro page
 
-![Blog Page](../img/blogPage.png)
+![About Me](../img/aboutme.png)
 
-> Portfolio- Blog page
+> Portfolio- About Me page
 
-![Project Page](../img/projectPage.png)
+![Blog/Projects](../img/blogprojects.png)
 
-> Portfolio- Project page
+> Portfolio- Blog/Projects page
+
+![Contact](../img/contact.png)
+
+> Portfolio- Contact

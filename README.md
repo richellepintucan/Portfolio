@@ -23,7 +23,7 @@
 
 ## Screenshots
 
-![Example screenshot](.//.)
+![Example screenshot](../Portfolio/img/Screenshot.png)
 
 ## Technologies
 
@@ -41,14 +41,32 @@
 ## Code Examples
 
 ```html
-<header>
-  <h1>Richelle Pintucan</h1>
-  <p id="position">Front-end Developer</p>
+<!-- Header -->
+<header id="header">
+  <div class="logo">
+    <span class="icon fa-gem"></span>
+  </div>
+  <div class="content">
+    <div class="inner">
+      <h1>PORTFOLIO</h1>
+      <p>
+        I created this page to showcase my projects and abilities. Check my
+        github account
+        <a href="https://github.com/richellepintucan">Github</a> and
+        <a href="https://www.linkedin.com/in/tenotoma/">LinkedIn</a> page.
+      </p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#blog/projects">Blog/Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!--<li><a href="#elements">Elements</a></li>-->
+    </ul>
+  </nav>
 </header>
-<section>
-  <h2>Summary</h2>
-  <p class="summary">I'm Richelle Pintucan.</p>
-</section>
 ```
 
 ## Status
