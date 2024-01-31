@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/noscript.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>Portfolio</title>
   </head>
 
@@ -14,7 +18,7 @@
       <!-- Header -->
       <header id="header">
         <div class="logo">
-          <span class="icon fa-gem"></span>
+          <span class="fa-sharp fa-solid fa-terminal"></span>
         </div>
         <div class="content">
           <div class="inner">
@@ -46,7 +50,7 @@
         <article id="intro">
           <h2 class="major">Intro</h2>
           <span class="image main"
-            ><img src="./img/my photo.png" alt="my image"
+            ><img src="./img/myphoto.png" alt="my image"
           /></span>
           <p>
             Hi 👋, I'm Richelle Pintucan. I'm currently studying Front-end
@@ -57,14 +61,12 @@
         <!-- About -->
         <article id="about">
           <h2 class="major">About Me</h2>
-          <span class="image main"
-            ><img
-              src="./img/aboutme.jpg"
-              alt="brown and white long coated small dog wearing eyeglasses on black laptop computer"
-          /></span>
+          <span class="image main"><img src="./img/aboutme.jpg" alt="" /></span>
           <p>
             In the year 2007, I completed a Bachelor's degree in Information
             Technology and was recognized by Naric-Vlaanderen for the year 2021.
+          </p>
+          <p>
             I always wanted to work in the IT field, but moving abroad and
             living abroad, I did not have the possibility right away because of
             the language barrier. Starting over, I was given an opportunity to
@@ -82,7 +84,7 @@
           /></span>
           <p>
             I can work independently and at the same time I love collaborating
-            with the team
+            with the team.
           </p>
           <p>
             I have the ability to work self-sufficiently on assigned tasks. You
@@ -132,12 +134,107 @@
             </li>
           </ul>
         </article>
+
+        <!-- Elements -->
+        <article id="elements">
+          <h4>Blockquote</h4>
+          <blockquote>
+            “Any fool can write code that a computer can understand. Good
+            programmers write code that humans can understand.” by Martin
+            Fowler.
+          </blockquote>
+
+          <section>
+            <h3 class="major">Form</h3>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="demo-name">Name</label>
+                  <input
+                    type="text"
+                    name="demo-name"
+                    id="demo-name"
+                    value=""
+                    placeholder="Richelle Pintucan"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="demo-email">Email</label>
+                  <input
+                    type="email"
+                    name="demo-email"
+                    id="demo-email"
+                    value=""
+                    placeholder="richellepintucan@yahoo.com"
+                  />
+                </div>
+                <div class="field">
+                  <label for="demo-category">Category</label>
+                  <select name="demo-category" id="demo-category">
+                    <option value="">-</option>
+                    <option value="1">Ask for a CV</option>
+                    <option value="1">Interview Invitation</option>
+                    <option value="1">Suggestions</option>
+                  </select>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-low"
+                    name="demo-priority"
+                    checked
+                  />
+                  <label for="demo-priority-low">Low</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-high"
+                    name="demo-priority"
+                  />
+                  <label for="demo-priority-high">High</label>
+                </div>
+                <div class="field half">
+                  <input type="checkbox" id="demo-copy" name="demo-copy" />
+                  <label for="demo-copy">Email me a copy</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="checkbox"
+                    id="demo-human"
+                    name="demo-human"
+                    checked
+                  />
+                  <label for="demo-human">Not a robot</label>
+                </div>
+                <div class="field">
+                  <label for="demo-message">Message</label>
+                  <textarea
+                    name="demo-message"
+                    id="demo-message"
+                    placeholder="Enter your message"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </form>
+          </section>
+        </article>
       </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy; Copyright. Design by: Richelle Pintucan</p>
+      </footer>
     </div>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <p class="copyright">&copy; Copyright. Design by: Richelle Pintucan</p>
-    </footer>
+    <!-- BG -->
+    <div id="bg"></div>
   </body>
 </html>
