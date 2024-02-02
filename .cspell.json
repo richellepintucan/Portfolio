@@ -230,7 +230,8 @@
     "schlix",
     "uikit",
     "umbraco",
-    "weixin"
+    "weixin",
+    "Chel"
   ],
   "ignorePaths": [
     "node_modules/**",
