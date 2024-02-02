@@ -42,31 +42,30 @@
 
 ```html
 <!-- Header -->
-<header id="header">
-  <div class="logo">
-    <span class="icon fa-gem"></span>
-  </div>
-  <div class="content">
-    <div class="inner">
-      <h1>PORTFOLIO</h1>
-      <p>
-        I created this page to showcase my projects and abilities. Check my
-        github account
-        <a href="https://github.com/richellepintucan">Github</a> and
-        <a href="https://www.linkedin.com/in/tenotoma/">LinkedIn</a> page.
-      </p>
-    </div>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#blog/projects">Blog/Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <!--<li><a href="#elements">Elements</a></li>-->
-    </ul>
-  </nav>
-</header>
+ <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo image" />
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#all-about-me">About Me</a></li>
+                    <li><a href="#skills-projects">Skills/Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h1>PORTFOLIO</h1>
+
+        </div>
+
+        <hr class="clear" />
+    </header>
+
 ```
 
 ## Status

@@ -18,17 +18,13 @@
 
 > Portfolio - Home Page
 
-![Intro](../img/intro.png)
-
-> Portfolio - Intro page
-
 ![About Me](../img/aboutme.png)
 
 > Portfolio- About Me page
 
-![Blog/Projects](../img/blogprojects.png)
+![Skills/Projects](../img/skillsprojects.png)
 
-> Portfolio- Blog/Projects page
+> Portfolio- Skills/Projects page
 
 ![Contact](../img/contact.png)
 
