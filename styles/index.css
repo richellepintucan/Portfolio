@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
 *,
 *::before,
 *::after {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Overpass", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +9,9 @@
 
 h1 {
   text-align: center;
-  color: #6155a6;
+  color: #f64c72;
+  font-family: "Permanent Marker", cursive;
+  font-size: 55px;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  background-color: #ffabe1;
+  background-color: #f64c72;
 }
 
 nav ul {
@@ -32,21 +32,28 @@ nav li {
 
 a,
 p,
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-size: 17px;
+  color: white;
 }
 
 .left {
-  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .right {
-  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .clear {
@@ -54,13 +61,14 @@ h6 {
   clear: both;
   margin: 0;
 }
+
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
 header {
-  background-color: #ffe6e6;
+  background-color: #2f2fa2;
 }
 
 header .logo {
@@ -82,30 +90,30 @@ header nav li {
 }
 
 header nav a {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Permanent Marker", cursive;
 }
 
 header nav a h1,
 h2,
 h3 {
-  color: #6155a6;
+  color: white;
   font-weight: bolder;
 }
 
 body {
-  background-color: #a685e2;
+  background-color: #2f2fa2;
 }
 
 p {
-  color: #ffe6e6;
+  color: white;
   font-weight: bold;
 }
 
 footer {
-  background-color: #6155a6;
+  background-color: #242582;
 }
 
-.footer-head container {
+.footer-head-container {
 }
 
 footer p,
@@ -113,14 +121,14 @@ footer h1,
 footer h2,
 footer h3,
 footer a {
-  color: #ffe6e6;
+  color: white;
   font-size: 0.8em;
 }
 
 footer p,
 footer a,
 footer h3 {
-  color: #ffe6e6;
+  color: white;
 }
 
 .left-footer,
