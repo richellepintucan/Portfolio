@@ -1,125 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
     <link rel=" stylesheet" href="./styles/contact.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo image" />
-
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./index.html">About Me</a></li>
-                    <li><a href="./index.html">Skills/Projects</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <h1>PORTFOLIO</h1>
-
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo-no-background.png" alt="logo image" />
         </div>
 
-        <hr class="clear" />
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./index.html">Skills/Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h1>PORTFOLIO</h1>
+      </div>
+
+      <hr class="clear" />
     </header>
 
     <main>
-        <h1 class="contact">Contact Form!</h1>
+      <h1 class="contact">Contact Form!</h1>
+      <br />
+      <form method="post" action="" name="login">
+        <div>
+          <label class="left" for="name">Name :</label>
+          <input class="right" required id="name" type="name" name="name" />
+        </div>
+        <hr class="clear" />
+        <div>
+          <label class="left" for="email">E-mail add:</label>
+          <input class="right" required id="email" type="email" name="email" />
+        </div>
+        <hr class="clear" />
 
-        <form method="post" action="" name="login">
-            <div>
-                <label class="left" for="name">Name :</label>
-                <input class="right" required id="name" type="name" name="name">
-            </div>
-            <hr class="clear">
-            <div>
-                <label class="left" for="email">E-mail add:</label>
-                <input class="right" required id="email" type="email" name="email">
-            </div>
-            <hr class="clear">
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something..."
+        ></textarea>
+        <hr class="clear" />
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
-            <hr class="clear">
+        <div>
+          <button class="right" type="submit">Submit</button>
+        </div>
+        <hr class="clear" />
 
-            <div>
-                <button class="right" type="submit">Submit</button>
-            </div>
-            <hr class="clear">
-
-            <div>
-                <button class="right" type="reset">Reset</button>
-            </div>
-            <hr class="clear">
-            <hr>
-        </form>
-        <hr class="clear">
-
+        <div>
+          <button class="right" type="reset">Reset</button>
+        </div>
+        <hr class="clear" />
+        <hr />
+      </form>
+      <hr class="clear" />
+      <br />
     </main>
 
     <footer>
-        <div class="footer-head container">
-            <div class="left-footer left">
-                <div class="logo">
-                    <img src="/img/logo.png" alt="footer logo" />
-                </div>
-                <div class="slogan">
-                    <h3>
-                        “Any fool can write code that a computer can understand. Good
-                        programmers write code that humans can understand.” by Martin
-                        Fowler.
-                    </h3>
-                </div>
-            </div>
-            <div class="center-footer left">
-                <nav class="left">
-                    <h2>Explore</h2>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/richellepintucan">
-                                <div>Github</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/tenotoma/">
-                                <div>LinkedIn</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://chelcaboodle.online/">
-                                <div>Chel Caboodle</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="right">
-                    <h2>Contact Me</h2>
-                    <p>Rue des Materiaux, 1070 Bruxelles.</p>
-                    <p>+32467699***</p>
-                    <p>richellepintucan@yahoo.com</p>
-                </div>
-            </div>
+      <div class="footer-head container">
+        <div class="left-footer left">
+          <div class="logo">
+            <img src="/img/logo-no-background.png" alt="footer logo" />
+          </div>
+          <div class="slogan">
+            <h3>
+              “Any fool can write code that a computer can understand. Good
+              programmers write code that humans can understand.” by Martin
+              Fowler.
+            </h3>
+          </div>
+        </div>
+        <div class="center-footer left">
+          <nav class="left">
+            <h2>Explore</h2>
+            <ul>
+              <li>
+                <a href="https://github.com/richellepintucan">
+                  <div>Github</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/tenotoma/">
+                  <div>LinkedIn</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://chelcaboodle.online/">
+                  <div>Chel Caboodle</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="right">
+            <h2>Contact Me</h2>
+            <p>Rue des Materiaux, 1070 Bruxelles.</p>
+            <p>+32467699***</p>
+            <p>richellepintucan@yahoo.com</p>
+          </div>
+        </div>
 
-            <hr />
-            <div class="footer-foot">
-                <p>Copyright (c) - Richelle Pintucan -</p>
-            </div>
+        <hr />
+        <div class="footer-foot">
+          <p>Copyright (c) - Richelle Pintucan -</p>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
