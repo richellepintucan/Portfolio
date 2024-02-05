@@ -1,98 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTFOLIO</title>
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-    <link rel=" stylesheet" href="./styles/contact.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img src="./img/logo-no-background.png" alt="logo image" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PORTFOLIO</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+  <link rel=" stylesheet" href="./styles/contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet" />
+</head>
 
-        <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./index.html">About Me</a></li>
-            <li><a href="./index.html">Skills/Projects</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <h1>PORTFOLIO</h1>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="./img/logo-no-background.png" alt="logo image" />
       </div>
 
-      <hr class="clear" />
-    </header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="./index.html">Skills/Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1>PORTFOLIO</h1>
+    </div>
+  </header>
 
-    <main>
-      <h1 class="contact">Contact Form!</h1>
+  <main>
+    <h2 class="contact">Contact Form!</h2>
+    <br />
+    <form action="action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..." />
       <br />
-      <form method="post" action="" name="login">
-        <div>
-          <label class="left" for="name">Name :</label>
-          <input class="right" required id="name" type="name" name="name" />
-        </div>
-        <hr class="clear" />
-        <div>
-          <label class="left" for="email">E-mail add:</label>
-          <input class="right" required id="email" type="email" name="email" />
-        </div>
-        <hr class="clear" />
-
-        <label for="subject">Subject</label>
-        <textarea
-          id="subject"
-          name="subject"
-          placeholder="Write something..."
-        ></textarea>
-        <hr class="clear" />
-
-        <div>
-          <button class="right" type="submit">Submit</button>
-        </div>
-        <hr class="clear" />
-
-        <div>
-          <button class="right" type="reset">Reset</button>
-        </div>
-        <hr class="clear" />
-        <hr />
-      </form>
-      <hr class="clear" />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..." />
       <br />
-    </main>
+      <label for="subject">Subject</label>
+      <br />
+      <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+      <br />
+      <button class="right" type="submit">Submit</button>
+      <button class="right" type="reset">Reset</button>
+    </form>
+  </main>
 
-    <footer>
-      <div class="footer-head container">
-        <div class="left-footer left">
+  <footer>
+    <div class="footer-head-container">
+      <div class="upper">
+        <div class="left-foot">
           <div class="logo">
-            <img src="/img/logo-no-background.png" alt="footer logo" />
+            <img src="./img/logo-no-background.png" alt="footer logo" />
           </div>
           <div class="slogan">
-            <h3>
-              “Any fool can write code that a computer can understand. Good
-              programmers write code that humans can understand.” by Martin
+            <h2 class="footer-text">
+              "Any fool can write code that a computer can understand. Good
+              programmers write code that humans can understand." by Martin
               Fowler.
-            </h3>
+            </h2>
           </div>
         </div>
-        <div class="center-footer left">
-          <nav class="left">
-            <h2>Explore</h2>
+        <div class="center-foot">
+          <nav class="center">
+            <h2 class="footer-text">Explore More</h2>
             <ul>
               <li>
                 <a href="https://github.com/richellepintucan">
@@ -111,19 +90,19 @@
               </li>
             </ul>
           </nav>
-          <div class="right">
-            <h2>Contact Me</h2>
-            <p>Rue des Materiaux, 1070 Bruxelles.</p>
-            <p>+32467699***</p>
-            <p>richellepintucan@yahoo.com</p>
-          </div>
         </div>
-
-        <hr />
-        <div class="footer-foot">
-          <p>Copyright (c) - Richelle Pintucan -</p>
+        <div class="right-foot">
+          <h2 class="footer-text">Contact Me</h2>
+          <p>Address: Rue des *********, 1070 Bruxelles</p>
+          <p>Email: richellepintucan@yahoo.com</p>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="footer-foot">
+        <p>Copyright (c) - Richelle Pintucan -</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  font-family: "Overpass", sans-serif;
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +9,9 @@
 
 h1 {
   text-align: center;
-  color: #f64c72;
-  font-family: "Permanent Marker", cursive;
-  font-size: 55px;
+  color: black;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  background-color: #f64c72;
+  background-color: gray;
 }
 
 nav ul {
@@ -27,6 +27,9 @@ nav ul {
 }
 
 nav li {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   list-style: none;
 }
 
@@ -37,50 +40,29 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Overpass", sans-serif;
-  font-size: 17px;
-  color: white;
-}
-
-.left {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.right {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.clear {
-  opacity: 0;
-  clear: both;
-  margin: 0;
+  font-family: Poppins, sans-serif;
+  color: black;
 }
 
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
+  padding: 20px 0px;
 }
 
 header {
-  background-color: #2f2fa2;
+  background-color: #2f5a78;
 }
 
-header .logo {
-  float: left;
+.logo {
+  width: 20%;
 }
 
 .logo img {
-  width: 128px;
-}
-
-header nav {
-  float: right;
+  width: 70%;
 }
 
 header nav li {
@@ -90,57 +72,330 @@ header nav li {
 }
 
 header nav a {
-  font-family: "Permanent Marker", cursive;
+  font-family: Poppins, sans-serif;
+  font-size: large;
 }
 
 header nav a h1,
 h2,
 h3 {
-  color: white;
-  font-weight: bolder;
+  color: black;
 }
 
 body {
-  background-color: #2f2fa2;
+  background-color: white;
+}
+
+h2 {
+  text-decoration-line: underline;
+  color: #2f5a78;
 }
 
 p {
-  color: white;
-  font-weight: bold;
+  color: black;
+}
+
+.about-me-container {
+  text-align: center;
+}
+
+.about-me {
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.about-me-image {
+  border: 1px solid #2f5a78;
+  margin-top: 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.logo1 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.about-me-paragraph {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.logos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.logo1 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo2 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo3 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo4 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo5 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo6 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo7 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo8 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo9 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo10 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo11 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.logo12 {
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #2f5a78;
+}
+
+.project-container {
+  text-align: center;
+}
+
+.project-title {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.title1 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+.title1 p {
+  margin-bottom: 40px;
+}
+
+.title1 a {
+  margin-bottom: 40px;
+}
+
+.title2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+.title2 p {
+  margin-bottom: 40px;
+}
+
+.title2 a {
+  margin-bottom: 40px;
 }
 
 footer {
-  background-color: #242582;
+  margin-top: 30%;
 }
 
 .footer-head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f5a78;
+  margin-top: 40px;
+  font-family: Poppins, sans-serif;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer p,
-footer h1,
 footer h2,
-footer h3,
 footer a {
-  color: white;
+  color: black;
   font-size: 0.8em;
 }
 
-footer p,
-footer a,
-footer h3 {
-  color: white;
-}
-
-.left-footer,
-.center-footer {
+.left-foot,
+.center-foot .right-foot {
   width: 33%;
   margin-right: 32px;
 }
 
-footer hr {
-  clear: both;
+.footer-text {
+  text-decoration: none;
 }
 
 .footer-foot {
   text-align: center;
+}
+
+/* =========== Desktop first ======== */
+
+/* 4K screen */
+@media (max-width: 2560px) {
+  .project-container {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+  .container {
+    width: 65%;
+  }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+  .container {
+    width: 50%;
+  }
+}
+
+/* =========== Mobile first ======== */
+/* Mobile S */
+@media (min-width: 320px) {
+  .container {
+    width: 50%;
+  }
+}
+/* Mobile M */
+@media (min-width: 375px) {
+  .container {
+    width: 60%;
+  }
+}
+/* Mobile L */
+@media (min-width: 425px) {
+  .container {
+    width: 65%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* 4K screen */
+@media (min-width: 2560px) {
+  .container {
+    width: 100%;
+  }
 }
