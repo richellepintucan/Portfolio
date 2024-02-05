@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  font-family: "Overpass", sans-serif;
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +9,9 @@
 
 h1 {
   text-align: center;
-  color: #f64c72;
-  font-family: "Permanent Marker", cursive;
-  font-size: 55px;
+  color: black;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  background-color: #f64c72;
+  background-color: gray;
 }
 
 nav ul {
@@ -27,6 +27,9 @@ nav ul {
 }
 
 nav li {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   list-style: none;
 }
 
@@ -37,44 +40,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Overpass", sans-serif;
-  font-size: 17px;
-  color: white;
-}
-
-.left {
-  display: flex;
-}
-
-.right {
-  direction: flex;
-}
-
-.clear {
-  opacity: 0;
-  clear: both;
-  margin: 0;
+  font-family: Poppins, sans-serif;
+  color: black;
 }
 
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
+  padding: 20px 0px;
 }
 
 header {
-  background-color: #2f2fa2;
+  background-color: #2f5a78;
 }
 
-header .logo {
-  float: left;
+.logo {
+  width: 20%;
 }
-
 .logo img {
-  width: 128px;
-}
-
-header nav {
-  float: right;
+  width: 70%;
 }
 
 header nav li {
@@ -84,32 +71,32 @@ header nav li {
 }
 
 header nav a {
-  font-family: "Permanent Marker", cursive;
+  font-family: Poppins, sans-serif;
+  font-size: large;
 }
 
 header nav a h1,
 h2,
 h3 {
-  color: white;
-  font-weight: bold;
+  color: black;
 }
 
 body {
-  background-color: #2f2fa2;
+  background-color: white;
 }
 
 .contact {
-  color: white;
-  font-family: "Overpass", sans-serif;
-  font-size: 17px;
+  color: black;
+  font-family: Poppins, sans-serif;
   text-align: center;
+  margin-top: 40px;
+  font-size: large;
 }
 
-main form input:not(input[type="radio"], input[type="checkbox"]),
-form button,
-form select {
+main input[type="text"],
+textarea {
   border-radius: 12px;
-  border: 1px ridge rgba(46, 34, 3, 0.5);
+  border: 1px ridge #2f5a78;
   min-height: 24px;
   margin: 5px;
   padding: 0px 12px;
@@ -118,113 +105,81 @@ form select {
   min-width: 120px;
 }
 
-main form input[type="checkbox"] {
-  margin: 5px 5px 5px 15%;
-  height: 24px;
-  padding: 0px 12px;
-  font-size: 0.8rem;
+main input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-main form option {
-  font-size: 1.2em;
+main input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
-main form label {
-  font-family: "Source Sans Pro", sans-serif;
+main label {
+  font-family: Poppins, sans-serif;
   text-align: left;
   font-size: 1.2rem;
   min-width: 40%;
 }
 
-main form legend {
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
 main form fieldset {
-  border: 1px inset rgba(46, 34, 3, 0.25);
+  border: 1px inset #2f5a78;
   border-radius: 20px;
-  box-shadow: 0px 5px 5px rgba(46, 34, 3, 0.25);
-  background-color: #fff2e3;
+  box-shadow: 0px 5px 5px #2f5a78;
+  background-color: gray;
 }
 
-main form fieldset .inline {
-  display: inline-block;
-}
-
-main form label.label-long {
-  width: 75%;
-  max-height: 6em;
-  overflow: auto;
-}
-
-main form.big-form {
-  width: 60%;
-}
-
-main form.big-form button {
-  min-width: 30%;
-  max-width: 40%;
-}
 main form {
+  font-family: Poppins, sans-serif;
   font-size: 1.5em;
-  font-weight: bolder;
   color: white;
   width: 30%;
   margin: 0 auto 64px;
   padding: 32px;
   border-radius: 32px;
-  background-color: #f64c72;
-  box-shadow: 0px 16px 32px rgba(46, 34, 3, 0.25);
+  background-color: gray;
+  box-shadow: 0px 16px 32px #2f5a78;
   text-align: center;
 }
 
-form a {
-  font-size: 0.6em;
-}
-
-form div {
-  padding: 15px 0;
-}
-
-.big-form > div {
-  min-width: 200px;
-  max-width: 75%;
-  margin: 0 auto;
-}
-
 footer {
-  background-color: #242582;
   margin-top: 30%;
 }
 
-.footer-head container {
+.footer-head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f5a78;
+  margin-top: 40px;
+  font-family: Poppins, sans-serif;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer p,
-footer h1,
 footer h2,
-footer h3,
 footer a {
-  color: white;
+  color: black;
   font-size: 0.8em;
 }
 
-footer p,
-footer a,
-footer h3 {
-  color: white;
-}
-
-.left-footer,
-.center-footer {
+.left-foot,
+.center-foot .right-foot {
   width: 33%;
   margin-right: 32px;
 }
 
-footer hr {
-  clear: both;
+.footer-text {
+  text-decoration: none;
 }
 
 .footer-foot {

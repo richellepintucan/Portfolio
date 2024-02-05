@@ -31,7 +31,9 @@
     "Richelle",
     "Pintucan",
     "Lant",
-    "Excalidraw"
+    "Excalidraw",
+    "firstname",
+    "lastname"
   ],
   "ignorePaths": [
     "node_modules/**",
