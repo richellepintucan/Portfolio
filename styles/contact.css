@@ -60,8 +60,26 @@ header {
 .logo {
   width: 20%;
 }
+
 .logo img {
   width: 70%;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 100px;
+  }
 }
 
 header nav li {
@@ -93,56 +111,59 @@ body {
   font-size: large;
 }
 
-main input[type="text"],
-textarea {
-  border-radius: 12px;
-  border: 1px ridge #2f5a78;
-  min-height: 24px;
-  margin: 5px;
-  padding: 0px 12px;
-  font-size: 0.8rem;
-  max-width: 80%;
-  min-width: 120px;
+/* Contact Form*/
+
+main {
+  margin-top: 40px;
 }
 
-main input[type="submit"] {
-  background-color: #04aa6d;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+#feedback-form {
+  width: 378px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
 }
 
-main input[type="submit"]:hover {
-  background-color: #45a049;
+#feedback-form * {
+  box-sizing: border-box;
 }
 
-main label {
-  font-family: Poppins, sans-serif;
-  text-align: left;
-  font-size: 1.2rem;
-  min-width: 40%;
-}
-
-main form fieldset {
-  border: 1px inset #2f5a78;
-  border-radius: 20px;
-  box-shadow: 0px 5px 5px #2f5a78;
-  background-color: gray;
-}
-
-main form {
-  font-family: Poppins, sans-serif;
-  font-size: 1.5em;
-  color: white;
-  width: 30%;
-  margin: 0 auto 64px;
-  padding: 32px;
-  border-radius: 32px;
-  background-color: gray;
-  box-shadow: 0px 16px 32px #2f5a78;
+#feedback-form h2 {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+#feedback-form input {
+  margin-bottom: 15px;
+}
+
+#feedback-form input[type="text"] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+#feedback-form label {
+  color: #777;
+  font-size: 0.8em;
+}
+
+#feedback-form button[type="submit"],
+button[type="reset"] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: black;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
 }
 
 footer {
@@ -184,4 +205,25 @@ footer a {
 
 .footer-foot {
   text-align: center;
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+  header nav li {
+    height: 110px;
+  }
+
+  nav li {
+    flex-direction: column;
+  }
+
+  nav ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    width: 300px;
+  }
 }
