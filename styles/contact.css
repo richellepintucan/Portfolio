@@ -63,23 +63,6 @@ header {
 
 .logo img {
   width: 70%;
-  position: relative;
-  animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-  0% {
-    top: 0px;
-  }
-  25% {
-    top: 200px;
-  }
-  75% {
-    top: 50px;
-  }
-  100% {
-    top: 100px;
-  }
 }
 
 header nav li {
@@ -103,12 +86,9 @@ body {
   background-color: white;
 }
 
-.contact {
-  color: black;
-  font-family: Poppins, sans-serif;
-  text-align: center;
-  margin-top: 40px;
-  font-size: large;
+.nav-link {
+  text-decoration: line-through;
+  color: white;
 }
 
 /* Contact Form*/
@@ -164,10 +144,6 @@ button[type="reset"] {
   color: black;
   font-weight: 700;
   box-shadow: 1px 4px 10px 1px #aaa;
-}
-
-footer {
-  margin-top: 30%;
 }
 
 .footer-head-container {
