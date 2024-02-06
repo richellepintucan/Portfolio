@@ -63,23 +63,6 @@ header {
 
 .logo img {
   width: 70%;
-  position: relative;
-  animation: mymove 5s infinite;
-}
-
-@keyframes mymove {
-  0% {
-    top: 0px;
-  }
-  25% {
-    top: 200px;
-  }
-  75% {
-    top: 50px;
-  }
-  100% {
-    top: 100px;
-  }
 }
 
 header nav li {
@@ -129,16 +112,9 @@ p {
   margin-bottom: 40px;
 }
 
-.logo1 {
-  border: 1px solid gray;
-  border-radius: 4px;
-  width: 50px;
-  height: 50px;
-}
-
 .about-me-paragraph {
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .skill-title {
@@ -149,6 +125,23 @@ p {
 .logos {
   margin-top: 40px;
   margin-bottom: 40px;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 100px;
+  }
 }
 
 .logo1 {
@@ -240,6 +233,8 @@ img:hover {
 }
 
 .project-container {
+  margin-top: 200px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -253,6 +248,7 @@ img:hover {
   margin-bottom: 40px;
   margin-top: 40px;
   font-style: italic;
+  color: gray;
 }
 
 .title1 p {
@@ -267,6 +263,7 @@ img:hover {
   margin-top: 40px;
   margin-bottom: 40px;
   font-style: italic;
+  color: gray;
 }
 
 .title2 p {
@@ -277,18 +274,12 @@ img:hover {
   margin-bottom: 40px;
 }
 
-@keyframes logo {
-  from {
-    transform: translateX(0%);
-  }
-
-  to {
-    transform: translateX(100%);
-  }
+#click1 {
+  color: blue;
 }
 
-footer {
-  margin-top: 30%;
+#click2 {
+  color: blue;
 }
 
 .footer-head-container {
