@@ -36,73 +36,79 @@
   </header>
 
   <main>
-    <h2 class="contact">Contact Form!</h2>
-    <br />
-    <form action="action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your first name..." />
-      <br />
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..." />
-      <br />
-      <label for="subject">Subject</label>
-      <br />
-      <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
-      <br />
-      <button class="right" type="submit">Submit</button>
-      <button class="right" type="reset">Reset</button>
-    </form>
-  </main>
-
-  <footer>
-    <div class="footer-head-container">
-      <div class="upper">
-        <div class="left-foot">
-          <div class="logo">
-            <img src="./img/logo-no-background.png" alt="footer logo" />
+    <div id="feedback-form">
+      <h2 class="header">Contact Form</h2>
+      <div>
+        <form>
+          <label class="left" for="name">FirstName:</label>
+          <input type="text" name="fname" placeholder="First Name" />
+          <label class="left" for="name">LastName:</label>
+          <input type="text" name="lname" placeholder="Last Name" />
+          <label class="left" for="name">Email:</label>
+          <input type="text" name="email" placeholder="Email" />
+          <label class="left" for="name">Subject:</label>
+          <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+          <div>
+            <button class="right" type="submit">Submit</button>
           </div>
-          <div class="slogan">
-            <h2 class="footer-text">
-              "Any fool can write code that a computer can understand. Good
-              programmers write code that humans can understand." by Martin
-              Fowler.
-            </h2>
-          </div>
-        </div>
-        <div class="center-foot">
-          <nav class="center">
-            <h2 class="footer-text">Explore More</h2>
-            <ul>
-              <li>
-                <a href="https://github.com/richellepintucan">
-                  <div>Github</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/tenotoma/">
-                  <div>LinkedIn</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://chelcaboodle.online/">
-                  <div>Chel Caboodle</div>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="right-foot">
-          <h2 class="footer-text">Contact Me</h2>
-          <p>Address: Rue des *********, 1070 Bruxelles</p>
-          <p>Email: richellepintucan@yahoo.com</p>
-        </div>
-      </div>
 
-      <div class="footer-foot">
-        <p>Copyright (c) - Richelle Pintucan -</p>
+          <div>
+            <button class="right" type="reset">Reset</button>
+          </div>
+        </form>
       </div>
     </div>
-  </footer>
+  </main>
 </body>
+
+<footer>
+  <div class="footer-head-container">
+    <div class="upper">
+      <div class="left-foot">
+        <div class="logo">
+          <img src="./img/logo-no-background.png" alt="footer logo" />
+        </div>
+        <div class="slogan">
+          <h2 class="footer-text">
+            "Any fool can write code that a computer can understand. Good
+            programmers write code that humans can understand." by Martin
+            Fowler.
+          </h2>
+        </div>
+      </div>
+      <div class="center-foot">
+        <nav class="center">
+          <h2 class="footer-text">Explore More</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/richellepintucan">
+                <div>Github</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tenotoma/">
+                <div>LinkedIn</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://chelcaboodle.online/">
+                <div>Chel Caboodle</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right-foot">
+        <h2 class="footer-text">Contact Me</h2>
+        <p>Address: Rue des *********, 1070 Bruxelles</p>
+        <p>Email: richellepintucan@yahoo.com</p>
+      </div>
+    </div>
+
+    <div class="footer-foot">
+      <p>Copyright (c) - Richelle Pintucan -</p>
+    </div>
+  </div>
+</footer>
 
 </html>

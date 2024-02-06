@@ -63,6 +63,23 @@ header {
 
 .logo img {
   width: 70%;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 100px;
+  }
 }
 
 header nav li {
@@ -108,7 +125,7 @@ p {
 .about-me-image {
   border: 1px solid #2f5a78;
   margin-top: 40px;
-  border-radius: 15px;
+  border-radius: 50px;
   margin-bottom: 40px;
 }
 
@@ -260,6 +277,16 @@ img:hover {
   margin-bottom: 40px;
 }
 
+@keyframes logo {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
 footer {
   margin-top: 30%;
 }
@@ -301,101 +328,23 @@ footer a {
   text-align: center;
 }
 
-/* =========== Desktop first ======== */
+/* Mobile */
 
-/* 4K screen */
-@media (max-width: 2560px) {
-  .project-container {
-    width: 100%;
+@media (max-width: 500px) {
+  header nav li {
+    height: 110px;
   }
-}
 
-/* Desktop */
-@media (max-width: 1440px) {
-  .container {
-    width: 90%;
+  nav li {
+    flex-direction: column;
   }
-}
 
-/* Laptop */
-@media (max-width: 1024px) {
-  .container {
-    width: 80%;
+  nav ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
   }
-}
 
-/* Tablet */
-@media (max-width: 768px) {
   .container {
-    width: 70%;
-  }
-}
-
-/* Mobile L */
-@media (max-width: 425px) {
-  .container {
-    width: 65%;
-  }
-}
-
-/* Mobile M */
-@media (max-width: 375px) {
-  .container {
-    width: 60%;
-  }
-}
-
-/* Mobile S */
-@media (max-width: 320px) {
-  .container {
-    width: 50%;
-  }
-}
-
-/* =========== Mobile first ======== */
-/* Mobile S */
-@media (min-width: 320px) {
-  .container {
-    width: 50%;
-  }
-}
-/* Mobile M */
-@media (min-width: 375px) {
-  .container {
-    width: 60%;
-  }
-}
-/* Mobile L */
-@media (min-width: 425px) {
-  .container {
-    width: 65%;
-  }
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  .container {
-    width: 70%;
-  }
-}
-
-/* Laptop */
-@media (min-width: 1024px) {
-  .container {
-    width: 80%;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1440px) {
-  .container {
-    width: 90%;
-  }
-}
-
-/* 4K screen */
-@media (min-width: 2560px) {
-  .container {
-    width: 100%;
+    width: 300px;
   }
 }
