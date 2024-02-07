@@ -6,37 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-    <link rel=" stylesheet" href="./styles/contact.css" />
+    <link rel=" stylesheet" href="./styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
 
   <body>
     <header>
-      <div class="container">
-        <div class="logo">
-          <img src="./img/logo-no-background.png" alt="logo image" />
-        </div>
-
-        <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./index.html">About Me</a></li>
-            <li><a href="./index.html">Skills/Projects</a></li>
-            <li class="nav-link"><a href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
+      <div class="header-container">
+        <img src="./img/logo-no-background.png" alt="logo" />
       </div>
-      <div>
-        <h1>PORTFOLIO</h1>
-      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects/Skills</a></li>
+          <li class="nav-link"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <section class="hero" id="hero">
+        <h1>MY PORTFOLIO</h1>
+        <p class="header-paragraph">
+          Hi 👋, I'm Richelle Pintucan. I created this page to showcase my
+          projects and abilities.
+        </p>
+      </section>
+    </main>
+    <hr />
+
+    <section>
       <div id="feedback-form">
         <h2 class="header">Contact Form</h2>
         <div>
@@ -63,56 +72,21 @@
           </form>
         </div>
       </div>
-    </main>
+    </section>
+
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/tenotoma/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/richellepintucan" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p>
+        &copy; Copyright 2024| Richelle Pintucan| Contact:
+        richellepintucan@yahoo.com
+      </p>
+    </footer>
   </body>
-
-  <footer>
-    <div class="footer-head-container">
-      <div class="upper">
-        <div class="left-foot">
-          <div class="logo">
-            <img src="./img/logo-no-background.png" alt="footer logo" />
-          </div>
-          <div class="slogan">
-            <h2 class="footer-text">
-              "Any fool can write code that a computer can understand. Good
-              programmers write code that humans can understand." by Martin
-              Fowler.
-            </h2>
-          </div>
-        </div>
-        <div class="center-foot">
-          <nav class="center">
-            <h2 class="footer-text">Explore More</h2>
-            <ul>
-              <li>
-                <a href="https://github.com/richellepintucan">
-                  <div>Github</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/tenotoma/">
-                  <div>LinkedIn</div>
-                </a>
-              </li>
-              <li>
-                <a href="https://chelcaboodle.online/">
-                  <div>Chel Caboodle</div>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="right-foot">
-          <h2 class="footer-text">Contact Me</h2>
-          <p>Address: Rue des *********, 1070 Bruxelles</p>
-          <p>Email: richellepintucan@yahoo.com</p>
-        </div>
-      </div>
-
-      <div class="footer-foot">
-        <p>Copyright (c) - Richelle Pintucan -</p>
-      </div>
-    </div>
-  </footer>
 </html>

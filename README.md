@@ -42,26 +42,19 @@
 
 ```html
 <!-- Header -->
-<body>
-  <header>
-    <div class="container">
-      <div class="logo">
-        <img src="./img/logo-no-background.png" alt="logo image" />
-      </div>
-
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#all-about-me">About Me</a></li>
-          <li><a href="#skills-projects">Skills/Projects</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <h1>PORTFOLIO</h1>
-  </header>
-</body>
+<header>
+  <div class="header-container">
+    <img src="./img/logo-no-background.png" alt="logo" />
+  </div>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#projects">Projects/Skills</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 ```
 
 ## Status
