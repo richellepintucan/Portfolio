@@ -169,25 +169,29 @@ footer {
   margin-right: 10px;
 }
 
-/* Responsive */
-
-@media (max-width: 2560px) {
+* 4k screen */ @media (max-width: 2560px) {
 }
 
+/* Desktop */
 @media (max-width: 1440px) {
 }
 
+/* Laptop */
 @media (max-width: 1024px) {
 }
 
+/* Tablet */
 @media (max-width: 768px) {
 }
 
+/* Mobile L */
 @media (max-width: 425px) {
 }
 
+/* Mobile M */
 @media (max-width: 375px) {
 }
 
+/* Mobile S */
 @media (max-width: 320px) {
 }
