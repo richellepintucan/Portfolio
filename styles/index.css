@@ -48,10 +48,21 @@ nav ul {
   justify-content: flex-end;
 }
 
+li a {
+  margin-right: 10px;
+}
+
 nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: 300;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 10px;
 }
 
 nav ul li a:hover {
@@ -208,7 +219,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
 }
 
 .social-icons {
@@ -216,14 +227,13 @@ footer {
   padding: 20px 0px;
 }
 
-.social-icons a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-  margin-right: 10px;
-}
+/* Responsive */
 
-* 4k screen */ @media (max-width: 2560px) {
+/* 4k screen */
+@media (max-width: 2560px) {
+}
+/* 4k screen */
+@media (max-width: 2560px) {
 }
 
 /* Desktop */
@@ -232,38 +242,71 @@ footer {
 
 /* Laptop */
 @media (max-width: 1024px) {
+  .projects {
+    height: 560px;
+  }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
   .projects {
-    height: 650px;
+    height: 730px;
   }
   header {
     flex-direction: column;
+  }
+  .projects .project-cards {
+    flex-direction: column;
+  }
+  .skills-projects-container {
+    height: 220px;
   }
 }
 
 /* Mobile L */
 @media (max-width: 425px) {
   .projects {
-    height: 1180px;
+    height: 1080px;
   }
   .about-me {
     height: 1400px;
+  }
+  .about-me .about-cards {
+    flex-direction: column;
+  }
+  .about-me {
+    height: 1040px;
+  }
+  .skills-projects-container {
+    height: 350px;
   }
 }
 
 /* Mobile M */
 @media (max-width: 375px) {
   .projects {
-    height: 1360px;
+    height: 1240px;
+  }
+  .about-me .about-cards {
+    flex-direction: column;
+  }
+  .about-me {
+    height: 1120px;
   }
 }
 
 /* Mobile S */
 @media (max-width: 320px) {
   .projects {
-    height: 1600px;
+    height: 1410px;
+  }
+  .about-me .about-cards {
+    flex-direction: column;
+  }
+  .about-me {
+    height: 1215px;
+  }
+  .skills-projects-container {
+    height: 470px;
   }
 }
