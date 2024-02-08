@@ -236,16 +236,34 @@ footer {
 
 /* Tablet */
 @media (max-width: 768px) {
+  .projects {
+    height: 650px;
+  }
+  header {
+    flex-direction: column;
+  }
 }
 
 /* Mobile L */
 @media (max-width: 425px) {
+  .projects {
+    height: 1180px;
+  }
+  .about-me {
+    height: 1400px;
+  }
 }
 
 /* Mobile M */
 @media (max-width: 375px) {
+  .projects {
+    height: 1360px;
+  }
 }
 
 /* Mobile S */
 @media (max-width: 320px) {
+  .projects {
+    height: 1600px;
+  }
 }
