@@ -48,10 +48,21 @@ nav ul {
   justify-content: flex-end;
 }
 
+li a {
+  margin-right: 10px;
+}
+
 nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: 300;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 10px;
 }
 
 nav ul li a:hover {
@@ -89,6 +100,11 @@ nav ul li a:hover {
 
 main {
   margin-top: 40px;
+}
+
+section {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #feedback-form {
@@ -154,7 +170,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
 }
 
 .social-icons {
@@ -162,36 +178,4 @@ footer {
   padding: 20px 0px;
 }
 
-.social-icons a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-  margin-right: 10px;
-}
-
-* 4k screen */ @media (max-width: 2560px) {
-}
-
-/* Desktop */
-@media (max-width: 1440px) {
-}
-
-/* Laptop */
-@media (max-width: 1024px) {
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-}
-
-/* Mobile L */
-@media (max-width: 425px) {
-}
-
-/* Mobile M */
-@media (max-width: 375px) {
-}
-
-/* Mobile S */
-@media (max-width: 320px) {
-}
+/* Responsive */
