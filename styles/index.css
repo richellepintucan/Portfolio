@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
-  background-color: #2f5a78;
+  background-color: rgb(68 80 105);
 }
 
 .header-container {
@@ -59,7 +59,7 @@ nav ul {
 
 /* mouse over link */
 .click:hover {
-  color: #37698c;
+  color: rgb(80, 68, 105);
 }
 
 /* selected link */
@@ -73,7 +73,7 @@ li a {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 300;
   transition: all 0.3s;
 }
@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #37698c;
+  background-color: rgb(80, 68, 105);
   font-size: 19px;
 }
 
@@ -98,12 +98,14 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 20;
   margin-bottom: 20px;
 }
 
 .hero h1 {
-  color: #2f5a78;
+  color: rgb(101 84 174);
   font-size: 2em;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -117,13 +119,12 @@ nav ul li a:hover {
   height: 400px;
   padding: 30px 0px;
   margin-top: 30px;
-  box-shadow: 0 4px 8px;
 }
 
 .projects h2 {
   margin: 30px 0px;
   text-align: center;
-  color: #2f5a78;
+  color: rgb(101 84 174);
 }
 
 .projects .project-cards {
@@ -139,7 +140,6 @@ nav ul li a:hover {
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 4px;
 }
 
 .project-card h3 {
@@ -156,10 +156,9 @@ nav ul li a:hover {
 
 .skills-projects-container {
   background-color: white;
-  height: 400px;
+  color: rgb(101 84 174);
+  height: 150px;
   padding: 30px 0px;
-  margin-top: 30px;
-  box-shadow: 0 4px 8px;
   text-align: center;
   transition: all 0.3s;
 }
@@ -186,22 +185,21 @@ nav ul li a:hover {
 }
 
 img:hover {
-  box-shadow: 0 0 2px 1px #2f5a78;
+  box-shadow: 0 0 2px 1px rgb(101 84 174);
 }
 
 /* About Me */
 
 .about-me {
-  height: 600px;
+  height: 450px;
   padding: 30px 0px;
   margin-top: 30px;
-  box-shadow: 0 4px 8px;
 }
 
 .about-me h2 {
   margin: 30px 0px;
   text-align: center;
-  color: #2f5a78;
+  color: rgb(101 84 174);
 }
 
 .about-me .about-cards {
@@ -217,13 +215,12 @@ img:hover {
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 4px;
 }
 
 .about-card h3 {
   font-family: Poppins, sans-serif;
   text-align: center;
-  color: #333;
+  color: black;
 }
 
 .about-card p {
@@ -237,7 +234,7 @@ footer {
   text-align: center;
   padding: 1em 0;
   margin-top: 2em;
-  background-color: #333;
+  background-color: rgb(179 200 144);
   display: flex;
   flex-direction: column;
   justify-content: center;

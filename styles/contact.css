@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
-  background-color: #2f5a78;
+  background-color: rgb(68 80 105);
 }
 
 .header-container {
@@ -54,7 +54,7 @@ li a {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 300;
   transition: all 0.3s;
 }
@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #37698c;
+  background-color: rgb(80, 68, 105);
   font-size: 19px;
 }
 
@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-  color: #2f5a78;
+  color: rgb(101 84 174);
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -94,7 +94,7 @@ nav ul li a:hover {
 
 .nav-link {
   text-decoration: line-through;
-  color: white;
+  color: rgb(179 200 144);
 }
 
 /* Contact Form */
@@ -166,7 +166,7 @@ footer {
   text-align: center;
   padding: 1em 0;
   margin-top: 2em;
-  background-color: #333;
+  background-color: rgb(179 200 144);
   display: flex;
   flex-direction: column;
   justify-content: center;
