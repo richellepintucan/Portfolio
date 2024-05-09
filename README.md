@@ -1,7 +1,7 @@
 # PORTFOLIO
 
 > A compilation of my academic and professional materials including education,
-> skills, qualifications,training and experiences.
+> projects, skills, trainings and experiences.
 
 ## Table of contents
 
@@ -23,7 +23,7 @@
 
 ## Screenshots
 
-![Example screenshot](./img/Screenshot.png)
+![Example screenshot](./img/screenshot.png)
 
 ## Technologies
 
@@ -59,7 +59,7 @@
 
 ## Status
 
-Project is: _in progress_
+Project is: Completed
 
 ## Contact
 

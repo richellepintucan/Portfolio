@@ -1,33 +1,35 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+Define Goals and Audience
+
+Identify the purpose of your portfolio (e.g., landing a job, attracting clients,
+showcasing skills). Determine who your target audience is (e.g., potential
+employers, clients in a specific industry).
+
+Design and Layout Design a visually appealing layout that highlights your work
+effectively. Ensure the layout is responsive and looks good on various devices
+(desktop, mobile, tablet).
 
 ## Must-Haves
 
-> First page - Home page
+1. Intro: Start with a brief introduction that provides an overview of who you
+   are, your background, and what you specialize in. Keep it concise and
+   engaging.
 
-- [ ] As a user I want to see the `logo`, `title` and `description` so that I
-      can understand easily what the website is all about.
+2. Work Samples/Projects: Display a selection of your best work samples or
+   projects that demonstrate your skills and expertise. Include a variety of
+   projects that showcase your range and abilities.
 
-- [ ] As a user I want to see the `Navigation links` so I can go to the
-      different parts of the page.
+3. Skills and Expertise: Clearly list your skills, areas of expertise, and
+   technologies you're proficient in. This helps visitors quickly understand
+   what you bring to the table and whether you're a good fit for their needs.
+4.
+5. Contact Information: Make it easy for visitors to get in touch with you by
+   including clear contact information, such as your email address or a contact
+   form. Consider adding links to your professional social media profiles as
+   well.
 
-- [ ] As a user I want to see at the end of the page a `footer` with some info
-      for copyright notice, privacy policy.
-
-> Third page - About Me
-
-- [ ] As a user I want to see the `about you` and or `image(s)` so I get to know
-      you better.
-
-> Fourth page - Blog and Project page
-
-- [ ] As a user I want to see the `skills` and or `projects` you have done.
-
-> Fifth page - Contact
-
-- [ ] As a user I want to see the `contact form` and or `email add` so I can
-      easily contact you.
+6. Responsive Design: Ensure that your portfolio website is mobile-friendly and
+   responsive, meaning it adapts smoothly to different screen sizes and devices.
+   This ensures a positive user experience for visitors accessing your portfolio
+   from various devices.
