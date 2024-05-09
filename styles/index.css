@@ -76,6 +76,7 @@ nav ul li a {
   color: white;
   font-weight: 300;
   transition: all 0.3s;
+  letter-spacing: 2px;
 }
 
 .social-icons a {
@@ -100,6 +101,7 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 20;
   margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
 .hero h1 {
