@@ -249,7 +249,7 @@ footer {
   padding: 20px 0px;
 }
 
-/* Responsive */
+/* Responsiveness */
 
 /* Laptop */
 @media (max-width: 1024px) {
@@ -279,6 +279,9 @@ footer {
 
 /* Mobile L */
 @media (max-width: 425px) {
+  nav ul {
+    flex-direction: column;
+  }
   .projects {
     height: 1080px;
   }
@@ -298,6 +301,10 @@ footer {
 
 /* Mobile M */
 @media (max-width: 375px) {
+  nav ul {
+    flex-direction: column;
+  }
+
   .projects {
     height: 1240px;
   }
@@ -313,6 +320,9 @@ footer {
 
 /* Mobile S */
 @media (max-width: 320px) {
+  nav ul {
+    flex-direction: column;
+  }
   .projects {
     height: 1410px;
   }
