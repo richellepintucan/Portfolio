@@ -1,140 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link rel=" stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PORTFOLIO</title>
-  <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
-  <link rel=" stylesheet" href="./styles/index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-</head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="./img/logo-no-background.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#projects">Projects/Skills</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <div class="header-container">
-      <img src="./img/logo-no-background.png" alt="logo" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="#projects">Projects/Skills</a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="hero" id="hero">
+        <h1>MY PORTFOLIO</h1>
+        <p class="header-paragraph">
+          Hi 👋, I'm Richelle Pintucan. I created this page to showcase my
+          projects and abilities. Here's my github repositories
+          <a
+            class="click"
+            href="https://github.com/richellepintucan?tab=repositories"
+            >Click here.</a
+          >
+        </p>
+      </section>
+    </main>
+    <hr />
 
-  <main>
-    <section class="hero" id="hero">
-      <h1>MY PORTFOLIO</h1>
-      <p class="header-paragraph">
-        Hi 👋, I'm Richelle Pintucan. I created this page to showcase my
-        projects and abilities. Here's my github repositories
-        <a class="click" href="https://github.com/richellepintucan?tab=repositories">Click here.</a>
-      </p>
+    <section class="projects" id="projects">
+      <h2>PROJECTS</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <h3>Todo List</h3>
+          <p>
+            Description: The Todo list is a list of items that need to be
+            completed. The items on the list can range from simple activities
+            like replying to an email, to more complex tasks. The objective of
+            the project is to practice Separation of Concerns in JavaScript and
+            to be able to demonstrate the CRUD Operations. <br />
+
+            Technology: The page is implemented using Html, CSS, Javascript and
+            Jest. <br />
+            Status: - Functional and Completed.
+            <a
+              class="click"
+              href="https://richellepintucan.github.io/todo-list/"
+              >Click here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>A Simple Calculator</h3>
+          <p>
+            Description: The task is to create a simple but functional
+            calculator. It should performs arithmetic operations on numbers like
+            addition, subtraction, multiplication and division. Technology:
+            HTML- to structure the project and its content, CSS- to style and
+            layout the project, JavaScript- to make the project interactive.
+            <br />
+            Status: - Functional and Completed. It's an individual project.
+
+            <a
+              class="click"
+              href="https://richellepintucan.github.io/assignment/"
+              >Click here</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
-  </main>
-  <hr />
 
-  <section class="projects" id="projects">
-    <h2>PROJECTS</h2>
-    <div class="project-cards">
-      <div class="project-card">
-        <h3>Todo List</h3>
-        <p>
-          Description: The Todo list is a list of items that need to be
-          completed. The items on the list can range from simple activities
-          like replying to an email, to more complex tasks. The objective of
-          the project is to practice Separation of Concerns in JavaScript and
-          to be able to demonstrate the CRUD Operations. <br />
+    <!-- Skills -->
 
-          Technology: The page is implemented using Html, CSS, Javascript and
-          Jest. <br />
-          Status: - Functional and Completed.
-          <a class="click" href="https://richellepintucan.github.io/todo-list/">Click here</a>
-        </p>
+    <section class="skills-projects-container" id="skills-projects">
+      <div class="skill-title">
+        <h2>SKILLS</h2>
       </div>
-      <div class="project-card">
-        <h3>A Simple Calculator</h3>
-        <p>
-          Description: The task is to create a simple but functional
-          calculator. It should performs arithmetic operations on numbers like
-          addition, subtraction, multiplication and division. Technology:
-          HTML- to structure the project and its content, CSS- to style and
-          layout the project, JavaScript- to make the project interactive.
-          <br />
-          Status: - Functional and Completed. It's an individual project.
-
-          <a class="click" href="https://richellepintucan.github.io/assignment/">Click here</a>
-        </p>
+      <div class="logos-icons">
+        <img class="logo1" src="./img/html5.png" alt=" Html" />
+        <img class="logo2" src="./img/css3.png" alt="Css" />
+        <img class="logo3" src="./img/js.png" alt="Javascript" />
+        <img class="logo5" src="./img/nodejs.png" alt="Node" />
+        <img class="logo6" src="./img/github.png" alt="Github" />
+        <img class="logo7" src="./img/git.png" alt="Git" />
+        <img class="logo8" src="./img/vs.png" alt="Vscode" />
+        <img class="logo9" src="./img/wordpress.png" alt="Wordpress" />
+        <img class="logo10" src="./img/react.png" alt="React" />
+        <img class="logo11" src="./img/google.png" alt="Google" />
+        <img class="logo12" src="./img/microsoft.png" alt="Microsoft" />
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills -->
+    <!-- About Me -->
 
-  <section class="skills-projects-container" id="skills-projects">
-    <div class="skill-title">
-      <h2>SKILLS</h2>
-    </div>
-    <div class="logos-icons">
-      <img class="logo1" src="./img/html5.png" alt=" Html" />
-      <img class="logo2" src="./img/css3.png" alt="Css" />
-      <img class="logo3" src="./img/js.png" alt="Javascript" />
-      <img class="logo5" src="./img/nodejs.png" alt="Node" />
-      <img class="logo6" src="./img/github.png" alt="Github" />
-      <img class="logo7" src="./img/git.png" alt="Git" />
-      <img class="logo8" src="./img/vs.png" alt="Vscode" />
-      <img class="logo9" src="./img/wordpress.png" alt="Wordpress" />
-      <img class="logo10" src="./img/react.png" alt="React" />
-      <img class="logo11" src="./img/google.png" alt="Google" />
-      <img class="logo12" src="./img/microsoft.png" alt="Microsoft" />
-    </div>
-  </section>
+    <section class="about-me" id="about-me">
+      <h2>ABOUT ME</h2>
+      <div class="about-cards">
+        <div class="about-card">
+          <h3>Me</h3>
+          <img
+            class="about-me-image"
+            src="./img/myphoto.png"
+            alt="Richelle Pintucan"
+          />
+        </div>
+        <div class="about-card">
+          <h3>Summary</h3>
+          <p>
+            In 2007, I completed Bachelor's degree in Information Technology. I
+            have the potential to demonstrate my commitment to learning. Being
+            willing to learn, explore, grow as a developer, and stay relevant.
+          </p>
 
-  <!-- About Me -->
-
-  <section class="about-me" id="about-me">
-    <h2>ABOUT ME</h2>
-    <div class="about-cards">
-      <div class="about-card">
-        <h3>Me</h3>
-        <img class="about-me-image" src="./img/myphoto.png" alt="Richelle Pintucan" />
+          <p>
+            Proficient in HTML, CSS, JavaScript, React with a strong
+            understanding of web development Advanced Techniques and Best
+            Practices. I am skilled full-stack developer responsible for
+            delivering a great user-experience and responsive websites.
+          </p>
+        </div>
       </div>
-      <div class="about-card">
-        <h3>Summary</h3>
-        <p>
-          In 2007, I completed Bachelor's degree in Information Technology. I
-          have the potential to demonstrate my commitment to learning. Being
-          willing to learn, explore, grow as a developer, and stay relevant.
-        </p>
+    </section>
 
-        <p>
-          Proficient in HTML, CSS, JavaScript, React with a strong understanding of
-          web development Advanced Techniques and Best Practices. I am skilled
-          front-end developer responsible for delivering a great
-          user-experience and responsive websites.
-        </p>
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/tenotoma/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/richellepintucan" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
       </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/tenotoma/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/richellepintucan" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-    <p>
-      &copy; Copyright 2024 | Richelle Pintucan| Contact Me:
-      <a href="mailto:richellepintucan@yahoo.com">richellepintucan@yahoo.com</a><br />
-    </p>
-  </footer>
-</body>
-
+      <p>
+        &copy; Copyright 2024 | Richelle Pintucan| Contact Me:
+        <a href="mailto:richellepintucan@yahoo.com"
+          >richellepintucan@yahoo.com</a
+        ><br />
+      </p>
+    </footer>
+  </body>
 </html>
